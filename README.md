@@ -1,2 +1,3 @@
 # sfallhands
- :raised_hands: Code examples for my pytest talk
+
+:computer: Code examples for my pytest talk
