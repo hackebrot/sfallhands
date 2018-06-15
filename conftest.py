@@ -6,6 +6,14 @@ from restaurant import Restaurant, Dish
 from food import SUSHI_RECIPES
 
 
+def pytest_emoji_passed(config):
+    return u"🍣 ", u"PASSED 🍣 "
+
+
+def pytest_emoji_failed(config):
+    return u"🤢 ", u"FAILED 🤢 "
+
+
 @pytest.fixture(name="fooshi_bar")
 def fixture_fooshi_bar():
     """Returns a Restaurant instance with a great menu."""
