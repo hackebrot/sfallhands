@@ -1,3 +1,3 @@
-# sfallhands
+# Mozilla San Francisco - June 2018
 
-:computer: Code examples for my pytest talk
+:sushi: Code examples for my pytest talk
