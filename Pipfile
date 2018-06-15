@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 attrs = "*"
+pytest-emoji = "*"
 
 [dev-packages]
 
